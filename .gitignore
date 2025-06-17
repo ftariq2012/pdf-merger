@@ -1,0 +1,12 @@
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+merge_log.txt
+
+# Build artifacts
+build/
+*.spec
+dist/
