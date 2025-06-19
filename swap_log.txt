@@ -1,22 +1,12 @@
-2025-06-17 22:14:33,495 - INFO - Starting merge for file number 1 -> Filename: 21583473018.pdf...
-2025-06-17 22:14:33,506 - INFO - Appended attachment1: C:/Users/faraz/Downloads/dummy.pdf
-2025-06-17 22:14:34,015 - INFO - Appended attachment2: C:/Users/faraz/Downloads/drylab.pdf
-2025-06-17 22:14:34,562 - INFO - Merged file: 21583473018.pdf
-2025-06-17 22:14:35,065 - INFO - Starting merge for file number 2 -> Filename: example.pdf...
-2025-06-17 22:14:35,093 - INFO - Appended attachment1: C:/Users/faraz/Downloads/dummy.pdf
-2025-06-17 22:14:35,601 - INFO - Appended attachment2: C:/Users/faraz/Downloads/drylab.pdf
-2025-06-17 22:14:36,666 - INFO - Merged file: example.pdf
-2025-06-17 22:14:37,169 - INFO - Starting merge for file number 3 -> Filename: flyer.pdf...
-2025-06-17 22:14:37,178 - INFO - Appended attachment1: C:/Users/faraz/Downloads/dummy.pdf
-2025-06-17 22:14:37,687 - INFO - Appended attachment2: C:/Users/faraz/Downloads/drylab.pdf
-2025-06-17 22:14:38,239 - INFO - Merged file: flyer.pdf
-2025-06-17 22:14:38,742 - INFO - Starting merge for file number 4 -> Filename: sample.pdf...
-2025-06-17 22:14:38,766 - INFO - Appended attachment1: C:/Users/faraz/Downloads/dummy.pdf
-2025-06-17 22:14:39,272 - INFO - Appended attachment2: C:/Users/faraz/Downloads/drylab.pdf
-2025-06-17 22:14:39,861 - INFO - Merged file: sample.pdf
-2025-06-17 22:15:43,149 - INFO - Swapped pages in: 21583473018.pdf
-2025-06-17 22:15:43,309 - INFO - Swapped pages in: example.pdf
-2025-06-17 22:15:43,311 - WARNING - Skipped flyer.pdf (only 1 pages)
-2025-06-17 22:15:43,326 - INFO - Swapped pages in: sample.pdf
-2025-06-17 22:15:43,328 - INFO - 
-Done. 3 file(s) processed, 1 skipped.
+2025-06-19 14:35:27,360 - ERROR - Failed 21583473018.pdf: string indices must be integers, not 'str'
+2025-06-19 14:35:27,376 - ERROR - Failed sample-local-pdf.pdf: string indices must be integers, not 'str'
+2025-06-19 14:35:27,377 - INFO - 
+Done. 0 file(s) processed, 2 skipped.
+2025-06-19 14:38:43,600 - INFO - Added page in: 21583473018.pdf
+2025-06-19 14:38:43,613 - INFO - Added page in: sample-local-pdf.pdf
+2025-06-19 14:38:43,615 - INFO - 
+Done. 2 file(s) processed, 0 skipped.
+2025-06-19 14:47:55,784 - INFO - Added page in: 21583473018.pdf
+2025-06-19 14:47:55,804 - INFO - Added page in: sample-local-pdf.pdf
+2025-06-19 14:47:55,806 - INFO - 
+Done. 2 file(s) processed, 0 skipped.

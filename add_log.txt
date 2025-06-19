@@ -1,0 +1,12 @@
+2025-06-19 14:35:27,360 - ERROR - Failed 21583473018.pdf: string indices must be integers, not 'str'
+2025-06-19 14:35:27,376 - ERROR - Failed sample-local-pdf.pdf: string indices must be integers, not 'str'
+2025-06-19 14:35:27,377 - INFO - 
+Done. 0 file(s) processed, 2 skipped.
+2025-06-19 14:38:43,600 - INFO - Added page in: 21583473018.pdf
+2025-06-19 14:38:43,613 - INFO - Added page in: sample-local-pdf.pdf
+2025-06-19 14:38:43,615 - INFO - 
+Done. 2 file(s) processed, 0 skipped.
+2025-06-19 14:47:55,784 - INFO - Added page in: 21583473018.pdf
+2025-06-19 14:47:55,804 - INFO - Added page in: sample-local-pdf.pdf
+2025-06-19 14:47:55,806 - INFO - 
+Done. 2 file(s) processed, 0 skipped.
