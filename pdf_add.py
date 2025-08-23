@@ -140,10 +140,6 @@ def get_add_frame(parent):
     Entry(frame, textvariable=attachment1, width=50).grid(row=3, column=1, padx=5, pady=5)
     Button(frame, text="Browse", command=lambda: browse_file(attachment1)).grid(row=3, column=2, padx=5, pady=5)
 
-    Label(frame, text="Add Log", bg="lightgrey", font=("Arial", 10, "bold")).grid(
-        row=5, column=0, columnspan=3, pady=(10, 0)
-    )
-
     log_output = ScrolledText(frame, height=10, width=80, state='disabled', bg="black", fg="white")
     log_output.grid(row=5, column=0, columnspan=3, padx=10, pady=10)
 

@@ -1,0 +1,13 @@
+2025-08-23 15:05:43,586 - INFO - Starting stamp run | input=C:/Users/faraz/Downloads/input | output=C:/Users/faraz/Downloads/output | stamp=C:/Users/faraz/Downloads/top-secret-rubber-stamp-free-png.pdf | pages=ALL
+2025-08-23 15:58:33,444 - INFO - Starting merge for file number 1 -> Filename: dictionary.pdf...
+2025-08-23 15:58:33,727 - INFO - Appended attachment1: C:/Users/faraz/Downloads/sample.pdf
+2025-08-23 15:58:34,235 - INFO - Appended attachment2: C:/Users/faraz/Downloads/sample-local-pdf.pdf
+2025-08-23 15:58:35,099 - INFO - Merged file: dictionary.pdf
+2025-08-23 15:58:35,602 - INFO - Starting merge for file number 2 -> Filename: drylab.pdf...
+2025-08-23 15:58:35,609 - INFO - Appended attachment1: C:/Users/faraz/Downloads/sample.pdf
+2025-08-23 15:58:36,116 - INFO - Appended attachment2: C:/Users/faraz/Downloads/sample-local-pdf.pdf
+2025-08-23 15:58:36,685 - INFO - Merged file: drylab.pdf
+2025-08-23 15:58:37,189 - INFO - Starting merge for file number 3 -> Filename: invoicesample.pdf...
+2025-08-23 15:58:37,198 - INFO - Appended attachment1: C:/Users/faraz/Downloads/sample.pdf
+2025-08-23 15:58:37,705 - INFO - Appended attachment2: C:/Users/faraz/Downloads/sample-local-pdf.pdf
+2025-08-23 15:58:38,302 - INFO - Merged file: invoicesample.pdf
