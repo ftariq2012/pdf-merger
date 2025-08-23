@@ -10,3 +10,19 @@ Done. 2 file(s) processed, 0 skipped.
 2025-06-19 14:47:55,804 - INFO - Added page in: sample-local-pdf.pdf
 2025-06-19 14:47:55,806 - INFO - 
 Done. 2 file(s) processed, 0 skipped.
+2025-07-20 23:49:34,966 - INFO - Starting merge for file number 1 -> Filename: dictionary.pdf...
+2025-07-20 23:49:35,277 - INFO - Appended attachment1: C:/Users/faraz/Downloads/example.pdf
+2025-07-20 23:49:35,786 - INFO - Appended attachment2: C:/Users/faraz/Downloads/dummy-pdf_2.pdf
+2025-07-20 23:49:37,125 - INFO - Merged file: dictionary.pdf
+2025-07-20 23:49:37,630 - INFO - Starting merge for file number 2 -> Filename: invoicesample.pdf...
+2025-07-20 23:49:37,664 - INFO - Appended attachment1: C:/Users/faraz/Downloads/example.pdf
+2025-07-20 23:49:38,172 - INFO - Appended attachment2: C:/Users/faraz/Downloads/dummy-pdf_2.pdf
+2025-07-20 23:49:39,344 - INFO - Merged file: invoicesample.pdf
+2025-07-20 23:49:39,848 - INFO - Starting merge for file number 3 -> Filename: pdf-sample_0.pdf...
+2025-07-20 23:49:39,884 - INFO - Appended attachment1: C:/Users/faraz/Downloads/example.pdf
+2025-07-20 23:49:40,392 - INFO - Appended attachment2: C:/Users/faraz/Downloads/dummy-pdf_2.pdf
+2025-07-20 23:49:41,460 - INFO - Merged file: pdf-sample_0.pdf
+2025-07-20 23:49:41,964 - INFO - Starting merge for file number 4 -> Filename: somatosensory.pdf...
+2025-07-20 23:49:42,003 - INFO - Appended attachment1: C:/Users/faraz/Downloads/example.pdf
+2025-07-20 23:49:42,509 - INFO - Appended attachment2: C:/Users/faraz/Downloads/dummy-pdf_2.pdf
+2025-07-20 23:49:43,569 - INFO - Merged file: somatosensory.pdf
