@@ -1,6 +1,6 @@
-from tkinter import *
-from pdf_reader import get_merger_frame
-from pdf_reorder import get_swap_frame
+from tkinter import * # type: ignore
+from pdf_merge import get_merger_frame
+from pdf_swap import get_swap_frame
 from pdf_add import get_add_frame
 
 root = Tk()

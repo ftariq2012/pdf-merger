@@ -3,34 +3,28 @@ from PyPDF2 import PdfMerger
 import time
 from datetime import datetime
 import logging
-from tkinter import *
+from tkinter import * # type: ignore
 from tkinter import filedialog, messagebox
 from tkinter.scrolledtext import ScrolledText
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=TRUE)
+log_file_path = os.path.join(LOG_DIR, "merge_log.txt")
 
 # Logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler("merge_log.txt")
+file_handler = logging.FileHandler(log_file_path)
 stream_handler = logging.StreamHandler()
-
-# Create GUI text handler (after log_output is defined)
-# You will move this after defining `log_output` so it has access
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 stream_handler.setFormatter(formatter)
 
-# Do not attach GUI handler until log_output is defined
 logger.addHandler(file_handler)
 logger.addHandler(stream_handler)
-
-# GUI Setup
-#window = Tk() 
-#window.geometry("700x450")
-#window.title("PDF Merger")
-#window.config(background="lightgrey")
-
 
 def browse_folder(var):
     path = filedialog.askdirectory()

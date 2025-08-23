@@ -1,15 +1,20 @@
 import os
 import logging
 from PyPDF2 import PdfReader, PdfWriter
-from tkinter import *
+from tkinter import * # type: ignore
 from tkinter import filedialog, messagebox
 from tkinter.scrolledtext import ScrolledText
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=TRUE)
+log_file_path = os.path.join(LOG_DIR, "add_log.txt")
 
 # Logging setup
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler("add_log.txt")
+file_handler = logging.FileHandler(log_file_path)
 stream_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
