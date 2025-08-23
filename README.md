@@ -35,7 +35,6 @@ It supports **merging, swapping, adding, and stamping** PDFs, with built-in logg
 
 ## 🛠️ Tools & Libraries Used
 
-- **[Python 3.11+](https://www.python.org/)** – Core programming language.
 - **[Tkinter](https://docs.python.org/3/library/tkinter.html)** – GUI framework for the desktop interface.
 - **[PyPDF2](https://pypi.org/project/pypdf2/)** – PDF manipulation library used for reading, writing, and editing PDF pages.
 - **Logging (Python standard library)** – For tracking progress, warnings, and errors in both console and log files.
